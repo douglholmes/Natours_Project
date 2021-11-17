@@ -1,0 +1,38 @@
+11/16/21
+-total width = right border + right padding + specified width + left padding + left border
+-total height = top border + top padding + specified height + bottom padding + bottom border
+-box-sizing: border-box just uses the specified width or height, rather than adding padding
+-block-level boxes = elements formatted as blocks; 100% parents width; vertically one after another
+    -display: block, flex, list-item
+-inline-boxes = content is distributed in lines, occupies only content space, no line breaks, no height or width, padding and margin only horizontal
+    -display: inline
+-inline-block = box mode-model, no line break, mix of inline and block
+    -display: inline-block
+-BEM
+    -Block ELement Modifier
+    -BLOCK = standalone component that is meaningful on its own
+    -ELEMENT = part of block that has no standalone meaning
+    -MODIFIER = a different version of a block or element
+        -.block {}
+        -.block__element {}
+        -.block__element--modifier {}
+
+-7-1 PATTERN
+    -7 different folders for partial SASS files and 1 main SASS file to import all other files into a compiled CSS stylesheet
+        -base/
+        -component/
+        -layout/
+        -pages/
+        -themes/
+        -abstracts/
+        -vendors/
+-SASS
+    --a CSS preprocessor, an extension of CSS that adds power and elegance to a basic language 
+    -variables
+    -nesting
+    -operators
+    -partials and imports
+    -mixins
+    -functions
+    -extends
+    -control directives
