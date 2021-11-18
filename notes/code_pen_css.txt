@@ -25,6 +25,7 @@ $width-button: 150px;
   color: $col;
 }
 
+
 nav {
   margin: 30px;
   background-color: $color-primary;
