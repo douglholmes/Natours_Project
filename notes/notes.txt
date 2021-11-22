@@ -1,4 +1,4 @@
-11/16/21
+---11/16/21---
 -total width = right border + right padding + specified width + left padding + left border
 -total height = top border + top padding + specified height + bottom padding + bottom border
 -box-sizing: border-box just uses the specified width or height, rather than adding padding
@@ -36,3 +36,25 @@
     -functions
     -extends
     -control directives
+
+---11/21/21---
+Basic responsive design
+-fluid layouts
+    -allow pages to adapt to viewport
+    -use % unit instead of px for elements that adapt to viewport use max-width instead of width
+-responsive units
+    -use rem instead of px for most lengths
+    to make it easy to scale the entire layout down automatically
+-flexible images
+    -by default, images don't scale automatically as wwe change the viewport, need to flexible
+    -always use % for image dimensions, together with the max-width property
+-media queries
+    -to change CSS styles on certain viewport widths (called breakpoints)
+
+layout types
+-float layouts
+    -"the old way of building layouts" of all sizes, using CSS property
+-flexbox
+    -"modern way" of laying out elements in a 1-dimensional row without using floats. perfect for component layouts
+-css grid
+    -for laying out element in a fully-fledged 2 dimensional grid. perfect for page layouts and complex components
