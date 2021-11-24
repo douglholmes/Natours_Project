@@ -58,3 +58,11 @@ layout types
     -"modern way" of laying out elements in a 1-dimensional row without using floats. perfect for component layouts
 -css grid
     -for laying out element in a fully-fledged 2 dimensional grid. perfect for page layouts and complex components
+
+
+11/23/21
+-highlight tags to make debugging faster and efficient
+-calc()
+    -math operation and mix units
+-&rarr; is and arrow
+-define imgs in % for responsive design
