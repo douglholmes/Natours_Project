@@ -66,3 +66,21 @@ layout types
     -math operation and mix units
 -&rarr; is and arrow
 -define imgs in % for responsive design
+
+11/24/21
+-if using a -webkit, also declare -moz
+
+-if defining position: absolute; in a child..
+    -you have to give a position: relative; in the parent
+    -you also have to define top: left: and width:
+-&nbsp;
+    -stands for non breaking space
+
+-unsplash.com for free images
+-semantic vs non semantic
+    -semantic   
+        -elements that have a meaning
+    -non semantic 
+        -section
+        -header, etc
+-clip path breaks in google chrome
