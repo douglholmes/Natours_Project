@@ -15,4 +15,4 @@ Features:
 
 Live Demo: https://douglholmes.github.io/Natours_Project/
 
-![DEMO](https://douglholmes.github.io/Natours_Project/)
+
